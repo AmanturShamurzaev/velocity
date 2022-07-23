@@ -1,0 +1,90 @@
+.what{
+  padding: 77px 0 103px;
+  text-align: center;
+  &__title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #676770;
+  }
+  &__subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8E8E9C;
+    padding: 17px 0 98px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 20px;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-bottom: 80px;
+     }
+  &__card{
+    width: 300px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #DCEBF7;
+    border-radius: 5px;
+    //padding: 36px 16px 23px;
+    height: 291px;
+    //max-width: calc(33.33333% - 40px);
+    &-title{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+      letter-spacing: 7px;
+      text-transform: uppercase;
+      color: #676770;
+    }
+    &-subtitle{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 25px;
+      text-align: center;
+      color: #6A859C;
+    }
+    }
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

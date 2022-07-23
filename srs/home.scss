@@ -1,0 +1,42 @@
+.home{
+  padding: 184px 0 200px;
+  background: url("../images/home.png");
+  max-width: 100%;
+  width: 1440px;
+
+  &__title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 59px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 117px;
+  }
+  &__btns{
+    padding-left: 500px;
+    padding-right: 500px;
+    display: flex;
+    column-gap: 20px;
+  }
+
+  &__btn-nonactiv{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background: transparent;
+    padding: 10px 32px 13px;
+  }
+  &__btn-nonactiv:hover{
+      background: #69B9FF;
+  }
+}

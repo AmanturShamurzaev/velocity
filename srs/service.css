@@ -1,0 +1,56 @@
+.service {
+  padding: 77px 265px 96px 265px;
+  text-align: center;
+  background: #192024;
+  max-width: 100%;
+  width: 1440px;
+}
+.service__title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 77px 635px 17px 635px;
+}
+.service__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #E8E8E8;
+  padding: 17px 0 77px;
+}
+.service__card-title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 20px 0 23px;
+}
+.service__card-subtitle {
+  padding-bottom: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.service__row {
+  column-gap: 50px;
+  display: flex;
+}

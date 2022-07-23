@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header{
+  padding: 11px 270px 24px 250px;
+  &__row{
+  display: flex;
+    justify-content: space-between;
+  }
+  &__link{
+    cursor: pointer;
+
+
+   }
+  &__link-home{
+    padding-right: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #676770;
+   }
+  &__link-home:hover{
+    color: #0082F3;
+  }
+  &__link-Contact{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #676770;
+  }
+  &__link-Contact:hover{
+    color: #0082F3;
+  }
+}
+.container{
+  //width: 940px;
+}
+
+@import "home";
+@import "what";
+@import "service";
+@import "map";
+@import "tab";
+@import "footer";
+
+
